@@ -1,0 +1,128 @@
+#page-map{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#page-map aside{
+    width: 448px;
+    background: linear-gradient(329.54deg, pink 0%, #00C7C7 100%);
+    padding: 88px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-map aside h2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+#page-map aside p{
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+#page-map aside footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+#page-map aside footer strong{
+    font-weight: 800;
+    color: #00C7C7;
+}
+#page-map aside footer span{
+    color: #00C7C7;
+}
+#page-map aside #link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-map aside a{
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: #15c3d5;
+    border-radius: 20px;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: backgraund-color 0.2s;
+}
+
+#page-map aside a:hover{
+    background-color: #17d6eb;
+}
+
+#page-map .leaflet-container {
+    z-index: 5;
+}
+
+#page-map .create-orphanage{
+
+    z-index: 10;
+    position: absolute;
+    right: 40px;
+    bottom: 48px;
+
+    width: 64px;
+    height: 64px;
+    background: #15c3d5;
+    border-radius: 20px;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: backgraund-color 0.2s;
+}
+
+#page-map .create-orphanage:hover{
+    background-color: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(230, 230, 230, 0.788);
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+    width: 48px;
+    height: 48px;
+    background: #15c3d6;
+    box-shadow: 17.6589px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-map .map-popup .leaflet-popup-tip-container {
+    display: none;
+}
